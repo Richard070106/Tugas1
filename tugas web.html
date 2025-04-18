@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Judul Utama Halaman</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    header {
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+
+    nav ul {
+      display: flex;
+      justify-content: center;
+      padding: 0;
+      list-style: none;
+      background-color: orange;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 10px;
+      transition: background-color 0.3s;
+    }
+
+    nav ul li a:hover {
+      background-color: #444;
+    }
+
+    .container {
+      display: flex;
+      padding: 1rem;
+    }
+
+    .articles {
+      flex: 3;
+      margin-right: 1rem;
+    }
+
+    article {
+      background-color: #f9f9f9;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+    }
+
+    .sidebar {
+      flex: 1;
+      background-color: #fff0e6;
+      padding: 1rem;
+      border: 1px solid #ccc;
+    }
+
+    .sidebar h3 {
+      color: orangered;
+    }
+
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .sidebar ul li a {
+      text-decoration: none;
+      color: black;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #333;
+      color: white;
+      padding: 1rem;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Judul Utama Halaman</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="articles">
+      <article>
+        <h2>Article 1</h2>
+        <p>World Wide Web, atau biasa disebut web, adalah sistem informasi global yang menghubungkan miliaran pengguna di seluruh dunia. Diluncurkan pada tahun 1991 oleh Sir Tim Berners-Lee, web telah merevolusi cara manusia mengakses dan berbagi pengetahuan. Web beroperasi melalui internet, menyediakan akses ke situs web, konten multimedia, dan aplikasi berbasis web..</p>
+      </article>
+      <article>
+        <h2>Article 2</h2>
+        <p>Situs web adalah dasar dari web, menawarkan informasi, layanan, dan hiburan. Situs ini dibuat dengan bahasa pemrograman seperti HTML, CSS, dan JavaScript, yang memastikan struktur dan interaktivitas. Web dapat dijelajahi melalui peramban seperti Chrome, Firefox, dan Edge, yang memungkinkan pengguna berpindah dari satu halaman ke halaman lainnya menggunakan tautan..</p>
+      </article>
+      <article>
+        <h2>Article 3</h2>
+        <p>Untuk info lebih lanjut, kunjungi <a href="https://www.w3schools.com/css/">artikel ini</a>.</p>
+      </article>
+    </section>
+
+    <aside class="sidebar">
+      <h3>Sidebar</h3>
+      <ul>
+        <li><a href="#">Widget 1</a></li>
+        <li><a href="#">Widget 2</a></li>
+        <li><a href="#">Widget 3</a></li>
+      </ul>
+    </aside>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Hak Cipta Kami</p>
+  </footer>
+</body>
+</html>
